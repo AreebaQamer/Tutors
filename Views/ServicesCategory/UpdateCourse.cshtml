@@ -1,0 +1,109 @@
+﻿@{
+	Layout = null;
+}
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, sans-serif;
+		background-color: white;
+	}
+
+	.container {
+		background-image: url('/images/canva.png');
+		background-size: cover;
+		background-color: rgb(245, 240, 240);
+		display: flex;
+		justify-content: center;
+		align-items: flex-start; /* Align form slightly lower */
+		height: 100%;
+		padding-top: 20px; /* Added padding to the top */
+	}
+
+	.signup-form {
+		background-color: rgba(255, 85, 0, 0.295);
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 0 0 10px rgba(99, 85, 85, 0.1);
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.form-group {
+		margin-bottom: 15px;
+	}
+
+	label {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="number"],
+	input[type="file"],
+	select {
+		width: 90%;
+		padding: 8px;
+		border: 1px solid #ccc;
+		border-radius: 7px;
+	}
+
+	button {
+		width: 100%;
+		padding: 10px;
+		background-color: rgb(78, 68, 68);
+		border: none;
+		color: #fff;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	.form-group.gender {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+		.form-group.gender label {
+			margin-bottom: 0;
+		}
+</style>
+
+<div class="container">
+	<form class="signup-form" method="post" action="/ServicesCategory/Update1" enctype="multipart/form-data">
+		<h2 style="text-align: center;">Update Course</h2>
+
+		<div class="form-group">
+			<label for="Id">Id</label>
+			<input type="text" id="Id" name="id" placeholder="Enter course Id " required>
+		</div>
+		<div class="form-group">
+			<label for="Name">Name</label>
+			<input type="text" id="Name" name="name" placeholder="Enter course name " required>
+		</div>
+		<div class="form-group">
+			<label for="des">Description</label>
+			<input type="text" id="des" name="description" placeholder="Enter course description " required>
+		</div>
+		<div class="form-group">
+			<label for="pri">Price</label>
+			<input type="text" id="pri" name="price" placeholder="Enter course price " required>
+		</div>
+		<div class="form-group">
+			<label for="cat">Category Name</label>
+			<input type="text" id="cat" name="catname" placeholder="Enter Category name" required>
+		</div>
+		<div class="form-group">
+			<label for="img">Upload Videos</label>
+			<input type="file" id="img" name="videos" required>
+		</div>
+
+		<div class="form-group">
+			<button type="submit">Update Course</button>
+		</div>
+	</form>
+
+</div>
+

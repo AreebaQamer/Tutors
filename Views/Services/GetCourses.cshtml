@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+@model CategoryCourseViewModel
+
+@{
+    ViewData["Title"] = "Get Course";
+}
+
+<h2>Get Course</h2>
+
+@using (Html.BeginForm("GetCourse", "Services", FormMethod.Get))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Category.Id, "Category ID:")
+        @Html.TextBoxFor(model => model.Category.Id, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Category.Id, "", new { @class = "text-danger" })
+    </div>
+    <button type="submit" class="btn btn-primary">Get Course</button>
+}
+
+@if (Model != null && Model.Course != null && Model.Course.Count > 0)
+{
+    <h3>Category: @Model.Category.CategoryName</h3> <!-- Change here -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Course ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Videos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Model.Course)
+            {
+                <tr>
+                    <td>@course.CourseId</td>
+                    <td>@course.Name</td>
+                    <td>@course.Description</td>
+                    <td>@course.Price</td>
+                    <td>@course.Videos</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,60 @@
+﻿@model List<Videos>
+
+@{
+    Layout = "_Layout";
+}
+<style>
+    .card {
+        margin-top: 20px;
+        height: 350px; /* Increased height to fit video and card-body */
+    }
+
+        .card video {
+            background-color: white;
+            height: 250px;
+            width: 100%; /* Ensure the video takes full width of the card */
+            transition: opacity 0.9s;
+        }
+
+            .card video:hover {
+                opacity: 0.7;
+            }
+
+    .card-body {
+        height: 100px; /* Adjust to fit the card height */
+        overflow: hidden;
+    }
+
+    .container-fluid {
+        margin-top: 30px;
+    }
+</style>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-12 col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <video controls>
+                        <source src="/UploadFiles/@product.Url" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

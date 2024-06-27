@@ -1,0 +1,62 @@
+﻿@model List<Videos>
+@{
+    Layout = "_Layout";
+}
+
+<style>
+    .card {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+        .card .wp-post-image {
+            background-color: white;
+            height: 260px;
+            transition: opacity 0.9s;
+        }
+
+            .card .wp-post-image:hover {
+                opacity: 0.7;
+            }
+</style>
+
+
+<br />
+<br />
+<br />
+<div class="container-fluid" style="margin-top: 30px">
+    <div class="row" style="margin-left:20px;">
+        @foreach (var product in Model)
+        {
+            string modalLink = "productModal" + product.Id;
+            <div class="col-12 col-md-4">
+                <div class="card" style="margin-top: 20px;">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1424" height="652" src="~/UploadFiles/@product"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>>
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                        <form action="/AddToCart/Cart" method="post">
+                            <input type="hidden" name="id" value="@product.Id" />
+                            <div style="position: absolute; bottom: 10px; right: 15px; width: 120px; height: 40px; background-color:darkred;border-radius:5px; display: flex; justify-content: center; align-items: center;">
+                                <button type="submit" style="background: none; border: none;">
+                                    <i class="fas fa-shopping-cart" style="color: white; font-size: 12px;font-style:normal">Add To Cart</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

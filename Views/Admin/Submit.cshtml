@@ -1,0 +1,121 @@
+﻿
+@model List<Feed>
+@{
+    Layout = "_Layout1";
+}
+<style>
+
+    .table-container {
+        margin-top: 70px;
+    }
+
+    .table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border: 3px solid darkred;
+    }
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .table th {
+            background-color: darkred;
+            color: white;
+        }
+
+        .table .btn {
+            background-color: darkcyan;
+            color: white;
+        }
+
+            .table .btn:hover {
+                background-color: darkred;
+            }
+
+    h3 {
+        text-align: center;
+        font-style: cursive;
+        color: darkred;
+        margin: 20px;
+    }
+
+    .rating .fa-star {
+        color: gold;
+    }
+
+    .rating .fa-star-o {
+        color: lightgray;
+    }
+
+    button {
+        display: block; /* Display the button as a block element */
+        margin: 0 auto; /* Center the button horizontally */
+        text-align: center; /* Center the text within the button */
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: darkred;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+</style>
+<br />
+<div class="container-fluid table-container">
+    <h3>Our Feedback</h3>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Satisfaction</th>
+                <th>Suggestions</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Email</td>
+                    <td>
+                        <div class="rating">
+                            @{
+                                int satisfaction = int.Parse(product.Satisfaction);
+                                for (int i = 1; i <= 5; i++)
+                                {
+                                    if (i <= satisfaction)
+                                    {
+                                        <i class="fa fa-star"></i>
+                                    }
+                                    else
+                                    {
+                                        <i class="fa fa-star-o"></i>
+                                    }
+                                }
+                            }
+                        </div>
+                    </td>
+                    <td>@product.Suggestions</td>
+                    <td>
+                        <a href="@Url.Action("DeleteName", "Admin",
+                                new {Name = product.Name })" class="btn btn-danger" style=" background-color:darkred" id="hello">Delete</a>
+                    </td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+  
+    <br />
+    <br />
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

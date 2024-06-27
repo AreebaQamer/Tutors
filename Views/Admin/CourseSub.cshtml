@@ -1,0 +1,103 @@
+﻿@model List<Course>
+
+@{
+    Layout = "_Layout";
+}
+<style>
+    .card {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+        .card .wp-post-image {
+            background-color: white;
+            height: 220px;
+            transition: opacity 0.9s;
+        }
+
+            .card .wp-post-image:hover {
+                opacity: 0.7;
+            }
+            #home{
+        
+        display: block;
+        diplay: flex;
+        margin: auto;
+        align-items: center;
+        width: 200px;
+    }
+
+</style>
+
+<
+<br />
+<br />
+<br />
+<div class="container-fluid" style="margin-top: 30px">
+    <div class="row" style="margin-left:20px;">
+        @foreach (var product in Model)
+        {
+            string modalLink = "productModal" + product.CourseId;
+            <div class="col-12 col-md-4">
+                <div class="card" style="margin-top: 20px;">
+                    <img src="~/UploadFiles/@product.Videos"
+                         class="scale-with-grid wp-post-image img-fluid"
+                         alt="" loading="lazy" data-bs-toggle="modal"
+                         data-bs-target="#@modalLink">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <a href="#" class="btn btn-dark">@product.Price</a>
+                        <a href="/ServicesCategory/UpdateCourse" class="btn btn-danger" style=" background-color:darkred" id="hello">Edit</a>
+                        <a href="@Url.Action("DeleteStat", "Admin",
+                                new { id =product.CourseId })" class="btn btn-danger" style=" background-color:darkblue" id="hello">Delete</a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@foreach (var product in Model)
+{
+    string modalLink = "productModal" + product.CourseId;
+    <div class="modal fade" id="@modalLink" tabindex="-1" aria-labelledby="modalLabel@product.ProductId" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modalLabel@product.ProductId">
+                        @product.Name
+                    </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="~/UploadFiles/@product.Videos" alt="@product.Name" class="img-fluid" style="height: 300px; object-fit: cover; object-position: center;" />
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>ID:</strong> @product.CourseId</p>
+                            <h2>Description:</h2>
+                            <p>
+                                @product.Description
+                            </p>
+
+                            <p><strong>Price:</strong> @product.Price</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+<br/>
+<br/>
+
+<a href="/ServicesCategory/AddCourse" class="btn btn-danger"  id="home"style=" background-color:darkred" id="hello">Add  More Courses</a>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

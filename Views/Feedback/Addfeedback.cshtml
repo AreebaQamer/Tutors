@@ -1,0 +1,152 @@
+﻿@{
+    Layout = "_Layout_new";
+}
+<br/>
+<br/>
+<br/>
+<br/>
+<style>
+    body { 
+        margin: 0; 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+        flex-direction: column; 
+        height: 100vh; 
+        background-image:url('/images/bo.png');
+        background-size:cover;
+        font-family: 'Poppins', sans-serif; 
+    } 
+  
+    .textup { 
+        text-align: center; 
+        color: black;
+        font-weight: 700; 
+    } 
+  
+    i { 
+        margin-right: 3px; 
+        color: darkblue;
+    } 
+  
+    .form-box { 
+        background-color:lightgrey;
+        padding: 15px; 
+        border-radius: 5px; 
+        width: 500px; 
+    } 
+  
+    form { 
+        max-width: 400px; 
+        margin: 0 auto; 
+    } 
+  
+    .radio-group { 
+        display: flex; 
+        margin-bottom: 16px; 
+    } 
+  
+    input[type="radio"] { 
+        margin-right: 8px; 
+    } 
+  
+    label { 
+        display: block; 
+        margin-bottom: 8px; 
+        font-size: 17px;
+        color: black;
+        font-weight: 600;
+    } 
+  
+    input, 
+    textarea { 
+        width: 100%; 
+        padding: 8px; 
+        margin-bottom: 12px; 
+        box-sizing: border-box; 
+        border-radius: 10px; 
+    } 
+  
+    button { 
+        background-color: darkred;
+        color: #fff; 
+        padding: 10px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        width: 100%; 
+        font-size: 15px; 
+        transition: .2s linear; 
+    } 
+  
+    button:hover { 
+        background-color: darkred;
+        border: none; 
+    } 
+  
+    h1 {
+        color: black;
+    }
+</style>
+
+<div class="form-box">
+    <div class="textup">
+        <i class="fa fa-solid fa-clock"></i>
+        It only takes two minutes!!
+    </div>
+    <form  method="post" action="/Feedback/Add" enctype="multipart/form-data">
+        <label for="name">
+            <i class="fa fa-solid fa-user"></i>
+            Name
+        </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">
+            <i class="fa fa-solid fa-envelope"></i>
+            Email Address
+        </label>
+        <input type="email" id="email" name="email" required>
+
+      
+
+        <label>
+            <i class="fa-solid fa-face-star"></i>
+            Are you satisfied with our service?
+        </label>
+        <input type="number" id="email" name="satisfy" required>
+
+        <label for="msg">
+            <i class="fa-solid fa-comments"></i>
+            Write your Suggestions:
+        </label>
+        <textarea id="msg" name="suggestion" rows="4" cols="10" required></textarea>
+
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+    <div id="confirmationMessage" class="alert alert-success mt-3" style="display: none;">
+        Your feedback has been successfully submitted!
+    </div> 
+</div>
+
+<script>
+    document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form from submitting the default way
+
+        // Get the feedback value
+        var feedback = document.getElementById('msg').value;
+
+        if (feedback) {
+            // Display confirmation message
+            document.getElementById('confirmationMessage').style.display = 'block';
+
+            // Clear the feedback form
+            document.getElementById('feedbackForm').reset();
+        }
+    });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

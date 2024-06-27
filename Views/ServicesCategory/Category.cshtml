@@ -1,0 +1,52 @@
+﻿@model List<Category>
+
+@{
+    Layout = "_Layout";
+}
+<style>
+    .card {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+        .card .wp-post-image {
+            background-color: white;
+            height: 220px;
+            transition: opacity 0.9s;
+        }
+
+            .card .wp-post-image:hover {
+                opacity: 0.7;
+            }
+</style>
+
+<
+<br />
+<br />
+<br />
+<div class="container-fluid" style="margin-top: 30px">
+    <div class="row" style="margin-left:20px;">
+        @foreach (var product in Model)
+        {
+            string modalLink = "productModal" + product.Id;
+            <div class="col-12 col-md-4">
+                <div class="card" style="margin-top: 20px;">
+                    <img src="~/UploadFiles/@product.Videos"
+                         class="scale-with-grid wp-post-image img-fluid"
+                         alt="" loading="lazy" data-bs-toggle="modal"
+                         data-bs-target="#@modalLink">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.CategoryName</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

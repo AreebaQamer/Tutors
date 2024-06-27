@@ -1,0 +1,283 @@
+﻿@* @model List<CartItem>
+@{
+    Layout = "_Layout";
+}
+
+<style>
+    .card {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+        .card .wp-post-image {
+            background-color: white;
+            height: 260px;
+            transition: opacity 0.9s;
+        }
+
+            .card .wp-post-image:hover {
+                opacity: 0.7;
+            }
+
+    body{
+        background-image: url('/images/sum.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    table {
+        width: 90%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:not(:last-child) {
+        border-bottom: 1px solid black;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 40px;
+        font-family: bolder;
+        font-weight:40px;
+        color: darkblue;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    img {
+        width: 150px; /* Adjust the width to make the image bigger */
+    }
+
+
+
+    .checkout-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+        .checkout-button button {
+            background-color:darkred;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            .checkout-button button:hover {
+                background-color: #0056b3;
+            }
+</style>
+
+<br/>
+<br/>
+<div class="container-fluid">
+    <h2>Your Cart</h2>
+    @if (Model != null && Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Quantity</th>
+                    <th>Images</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>
+
+
+
+                            <iframe width="1424" height="652" src="~/UploadFiles/@item.Image"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                       
+                        </td>
+
+                        
+                        <td>
+                            <form method="post" action="@Url.Action("DeleteCart", "AddToCart")">
+                                <input type="hidden" name="deleteItemId" value="@item.CourseId" />
+                                <button type="submit" class="btn btn-danger btn-custom">Delete</button>
+                            </form>
+                        </td>
+
+
+                    </tr>
+              
+           
+        <form action="/Videos/Cart" method="post">
+            <input type="hidden" name="id" value="@item.Id" />
+            <div style="position: absolute; bottom: 10px; right: 15px; width: 120px; height: 40px; background-color:darkred;border-radius:5px; display: flex; justify-content: center; align-items: center;">
+                <button type="submit" style="background: none; border: none;">
+                    <i class="fas fa-shopping-cart" style="color: white; font-size: 12px;font-style:normal">Add To Cart</i>
+                </button>
+            </div>
+        </form>
+        }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>There is no vdeo.</p>
+    }
+</div>
+
+
+
+@* <br />
+<br />
+<br />
+<div class="container-fluid" style="margin-top: 30px">
+    <div class="row" style="margin-left:20px;">
+        @foreach (var product in Model)
+        {
+            string modalLink = "productModal" + product.Id;
+            <div class="col-12 col-md-4">
+                <div class="card" style="margin-top: 20px;">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1424" height="652" src="~/UploadFiles/@product"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>>
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                        <form action="/AddToCart/Cart" method="post">
+                            <input type="hidden" name="id" value="@product.Id" />
+                            <div style="position: absolute; bottom: 10px; right: 15px; width: 120px; height: 40px; background-color:darkred;border-radius:5px; display: flex; justify-content: center; align-items: center;">
+                                <button type="submit" style="background: none; border: none;">
+                                    <i class="fas fa-shopping-cart" style="color: white; font-size: 12px;font-style:normal">Add To Cart</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+                        <td><img src="~/UploadFiles/@item.Image" alt="Product Image" width="50" /></td>
+@* 
+ 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> *@
+
+
+
+
+    @model List<CartItem>
+
+<style>
+    .card {
+        width: 300px;
+        margin-top: 20px;
+        
+        background-color: mistyrose;
+    }
+
+        .card .card-image {
+            height: 260px;
+            transition: opacity 0.9s;
+        }
+
+            .card .card-image:hover {
+                opacity: 0.7;
+            }
+
+    .card-title {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+       color:darkred;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+        .card-footer button {
+            background-color: darkred;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            .card-footer button:hover {
+                background-color: #0056b3;
+            }
+            h1{
+                display:flex;
+                margin:auto;
+            }
+           
+</style>
+<br />
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="container-fluid">
+    <h1>Your Video Lectures</h1>
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <video width="100%" controls>
+                                <source src="/UploadFiles/@item.Image" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Your cart is empty.</p>
+        }
+    </div>
+</div>

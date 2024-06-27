@@ -1,0 +1,47 @@
+﻿@model List<Category>
+
+<style>
+   
+    .card {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+        .card .wp-post-image {
+            background-color: white;
+            height: 270px;
+            transition: opacity 0.3s;
+        }
+
+            .card .wp-post-image:hover {
+                opacity: 0.7;
+            }
+            
+</style>
+
+<div class="container-fluid" style="margin-top: 70px">
+    <h1 style="text-align:center;font-style:cursive;color:darkred;margin:20px;">
+        Our Categories
+    </h1>
+    <div class="row" style="margin-left:20px;">
+        @foreach (var product in Model)
+        {
+            <div class="col-12 col-md-4">
+                <div class="card" style="margin-top: 20px;">
+
+                    <!-- Update the image source to use the PathOfImage property -->
+                    <img src="~/UploadFiles/@product.Videos"
+                         class="scale-with-grid wp-post-image img-fluid"
+                         alt="" loading="lazy" data-toggle="modal" data-target="#productModal" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">@product.CategoryName</h5>
+                       
+                        <!-- Add other product details as needed -->
+
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+  </div>

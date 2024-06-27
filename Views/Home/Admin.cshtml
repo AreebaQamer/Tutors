@@ -1,0 +1,316 @@
+﻿@{
+    Layout = "_Layout1";
+}
+<style>
+
+    .card {
+        margin-top: 20px;
+        background-color: white;
+        width: 100%;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+    }
+
+        .card .card-img-top {
+            background-color: #F1F2F3; /* Red background color for the back of the image */
+            object-fit: contain;
+            max-height: 90px; /* Set max height for the image */
+            width: auto; /* Let the width adjust automatically */
+            transition: opacity 0.1s; /* Transition effect */
+            max-width: 100px;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -ms-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+        }
+
+        .card .card-img-top1 {
+            background-color: white; /* Red background color for the back of the image */
+            object-fit: contain;
+            max-height: 1000px; /* Set max height for the image */
+            width: 100%; /* Let the width adjust automatically */
+            transition: opacity 0.1s;
+            max-width: 500px;
+        }
+
+    .card-img-top1:hover {
+        opacity: 0.2;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -ms-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40); /* Adjust the opacity value as needed */
+    }
+
+    .card-body {
+        padding: 15px;
+        height: 200px; /* Add padding to the card body */
+    }
+
+    .card-title,
+    .card-text {
+        color: black;
+    }
+
+    .card-img-top:hover {
+        opacity: 0.2; /* Adjust the opacity value as needed */
+    }
+
+    .cart-icon {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .customers {
+        margin-top: 30px;
+        font-size: 28px;
+        font-family: cursive;
+        text-align: center;
+    }
+
+    .feedback {
+        background-color: black;
+        color: white;
+    }
+
+    .col-11 img:hover {
+        transform: scale(0.9); /* Scale the image to 120% on hover */
+        transition: transform 0.3s ease; /* Add smooth transition effect */
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .c-details span {
+        font-weight: 300;
+        font-size: 13px
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        background-color: #eee;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 39px
+    }
+
+    .badge span {
+        background-color: white;
+        width: 60px;
+        height: 25px;
+        padding-bottom: 3px;
+        border-radius: 5px;
+        display: flex;
+        color: #fed85d;
+        justify-content: center;
+        align-items: center
+    }
+
+    .progress {
+        height: 10px;
+        border-radius: 10px
+    }
+
+        .progress div {
+            background-color: red
+        }
+
+    .text1 {
+        font-size: 14px;
+        font-weight: 600
+    }
+
+    .text2 {
+        color: #a5aec0;
+    }
+
+</style>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container-fluid">
+    <div class="row justify-content-around">
+        <div class="col-11 col-md-3">
+            <div class="card" style="margin-top: 20px;">
+                <img src="~/images/eng.png" class="card-img-top1" alt="..." data-toggle="modal" data-target="#productModal"
+                     height="200px">
+                <!-- Set a max-height for the image -->
+                <div class="card-body">
+                    <h4 class="card-title" style="color:darkred;font-weight:bolder">Add Products</h4>
+                    <div class="text-container">
+                        
+
+                        <div style="float:left">
+
+                        </div>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-danger">
+                            <a href="/ServicesCategory/AddCourse"
+                               style="color:white;text-decoration: none;">Add Products</a>
+                        </button>
+                        
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-11 col-md-3">
+            <div class="card" style="margin-top: 20px;">
+                <img src="~/images/pro.jpg" class="scale-with-grid wp-post-image" alt="" decoding="async" loading="lazy"
+                     height="200px" class="card-img-top1" alt="..." data-toggle="modal" height="200px"
+                     data-target="#productModal1">
+                <div class="card-body">
+                    <h4 class="card-title" style="color:darkred;font-weight:bolder"> Course Categories</h4>
+                    <div class="text-container">
+                        
+
+                        <div style="float:left">
+
+                           
+                        </div>
+                        <br>
+                        <br>
+                        
+                        <button type="button" class="btn btn-danger">
+                            <a href="/ServicesCategory/Category"
+                               style="color:white;text-decoration: none;">View Categories</a>
+                        </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-11 col-md-3">
+            <div class="card" style="margin-top: 20px;">
+
+                <img src="~/images/home.png" alt="" decoding="async" loading="lazy" height="200px" class="card-img-top1"
+                     alt="..." data-toggle="modal" data-target="#productModal2">
+                <!-- Set a max-height for the image -->
+                <div class="card-body">
+                    <h4 class="card-title" style="color:darkred;font-weight:bolder">Sub Courses</h4>
+                    <div class="text-container">
+
+
+                        <div style="float:left">
+                        </div>
+                        <br>
+                        <br>
+
+                        <button type="button" class="btn btn-danger">
+                            <a href="/ServicesCategory/Course"
+                               style="color:white;text-decoration: none;">View Sub Courses</a>
+                        </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-around">
+        <div class="col-11 col-md-3">
+            <div class="card" style="margin-top: 20px;">
+
+                <img src="~/images/canva.png" height="200px" class="scale-with-grid wp-post-image" alt="" loading="lazy"
+                     class="card-img-top1" alt="..." data-toggle="modal" data-target="#productModal6">
+                <!-- Set a max-height for the image -->
+                <div class="card-body">
+                    <h4 class="card-title" style="color:darkred;font-weight:bolder">Frequently Asked Questions</h4>
+                    <div class="text-container">
+                        <div style="float:left">
+                        </div>
+                        <br>
+                        <br>
+
+                        <button type="button" class="btn btn-danger">
+                            <a href="/Feedback/Read"
+                              style="color:white;text-decoration: none;">Add FAQS</a>
+                        </button>
+                        <button type="button" class="btn btn-danger">
+                            <a href="/Feedback/Read"
+                               style="color:white;text-decoration: none;">View FAQS</a>
+                        </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-11 col-md-3">
+            <div class="card" style="margin-top: 20px;">
+
+
+                <img src="~/images/feed.png" height="200px" class="scale-with-grid wp-post-image" alt="" loading="lazy"
+                     class="card-img-top1" alt="..." data-toggle="modal" data-target="#productModal7">
+                <div class="card-body">
+                    <h4 class="card-title" style="color:darkred;font-weight:bolder">Feedback</h4>
+                    <div class="text-container">
+
+
+                        <div style="float:left">
+                        </div>
+                        <br>
+                        <br>
+
+                        <button type="button" class="btn btn-danger">
+                            <a href="/Feedback/Submit"
+                               style="color:white;text-decoration: none;">View Feedback</a>
+                        </button>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-11 col-md-3">
+            <div class="card" style="margin-top: 20px;">
+                <img src="~/images/ordr.png" height="200px" class="scale-with-grid wp-post-image" alt="" loading="lazy"
+                     class="card-img-top1" alt="..." data-toggle="modal" data-target="#productModal8">
+                <!-- Set a max-height for the image -->
+                <div class="card-body">
+                    <h4 class="card-title" style="color:darkred;font-weight:bolder">  Orders </h4>
+                    <div class="text-container">
+
+
+                        <div style="float:left">
+                        </div>
+                        <br>
+                        <br>
+
+                        <button type="button" class="btn btn-danger">
+                            <a href="/Videos/add"
+                               style="color:white;text-decoration: none;"> Add Orders </a>
+                        </button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+

@@ -1,0 +1,383 @@
+﻿@model List<CartItem>
+
+<style>
+
+	body {
+		background-image: url('/images/sum.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	table {
+		width: 90%;
+		border-collapse: collapse;
+		margin-top: 20px;
+	}
+
+	th, td {
+		border: 1px solid black;
+		padding: 8px;
+		text-align: left;
+	}
+
+	th {
+		background-color: #f2f2f2;
+	}
+
+	tr:not(:last-child) {
+		border-bottom: 1px solid black;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 70px;
+		font-size: 40px;
+		font-family: cursive;
+		color: darkblue;
+		font-size: bolder;
+	}
+
+	h3 {
+		text-align: center;
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	img {
+		width: 150px;
+	}
+
+	.checkout-summary {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.checkout-button {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+		.checkout-button button {
+			background-color: darkred;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			font-size: 18px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+			.checkout-button button:hover {
+				background-color: darkcyan;
+			}
+
+
+	body {
+		font-family: Arial;
+		font-size: 17px;
+		padding: 8px;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+	.row {
+		display: -ms-flexbox; /* IE10 */
+		display: flex;
+		-ms-flex-wrap: wrap; /* IE10 */
+		flex-wrap: wrap;
+		margin: 0 -16px;
+	}
+
+	.col-25 {
+		-ms-flex: 25%; /* IE10 */
+		flex: 25%;
+	}
+
+	.col-50 {
+		-ms-flex: 50%; /* IE10 */
+		flex: 50%;
+	}
+
+	.col-75 {
+		-ms-flex: 75%; /* IE10 */
+		flex: 75%;
+	}
+
+	.col-25,
+	.col-50,
+	.col-75 {
+		padding: 0 16px;
+	}
+
+	.container {
+		padding: 5px 20px 15px 20px;
+	}
+
+	input[type=text] {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+
+	label {
+		margin-bottom: 10px;
+		display: block;
+	}
+
+	.icon-container {
+		margin-bottom: 20px;
+		padding: 7px 0;
+		font-size: 24px;
+	}
+
+	.btn {
+		background-color: #04AA6D;
+		color: white;
+		padding: 12px;
+		margin: 10px 0;
+		border: none;
+		width: 100%;
+		border-radius: 3px;
+		cursor: pointer;
+		font-size: 17px;
+	}
+
+		.btn:hover {
+			background-color: #45a049;
+		}
+
+	a {
+		color: #2196F3;
+	}
+
+	hr {
+		border: 1px solid lightgrey;
+	}
+
+	span.price {
+		float: right;
+		color: grey;
+	}
+
+	}
+</style>
+
+
+<br />
+<br />
+<br/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color:darkred;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+</style>
+</head>
+<body>
+	<br/>
+	<br/>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form  method="post" action="/AddToCart/AddInfo">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>User Information </h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="name" placeholder="Enter your Name">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="xyz@gmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Institute</label>
+            <input type="text" id="adr" name="institute" placeholder="Enter your instiute">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city">
+
+            <div class="row">
+              
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Checkout" class="btn">
+      </form>
+
+    </div>
+  </div>
+  <div class="col-25" style="color:rosybrown">
+    <div class="container">
+		@foreach (var item in Model)
+	{
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart" style="color:darkred"></i> <b>@item.Quantity</b></span></h4>
+      <p><a href="#">@item.Name</a> <span class="price">@item.Price</span></p>
+      
+      <hr>
+	<p>Total Amount<span class="price" style="color:black"><b>@ViewBag.TotalAmount.ToString("C")</b></span></p>
+
+					<form action="/Videos/Cart" method="post">
+						<input type="hidden" name="id" value="@item.CourseId" />
+						<div style="position: absolute; bottom: 10px; right: 15px; width: 120px; height: 40px; background-color:darkred;border-radius:5px; display: flex; justify-content: center; align-items: center;">
+							<button type="submit" style="background: none; border: none;">
+								<i class="fas fa-shopping-cart" style="color: white; font-size: 12px;font-style:normal">View Videos</i>
+							</button>
+						</div>
+					</form>
+	}
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<div class="container-fluid">
+	<h2>Order Summary</h2>
+	@if (Model != null && Model.Any())
+	{
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Product ID</th>
+					<th>Product Name</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Total Price</th>
+					<th>Image</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.CourseId</td>
+						<td>@item.Name</td>
+						<td>@item.Price</td>
+						<td>@item.Quantity</td>
+						<td>@item.TotalPrice</td>
+						<td><img src="~/UploadFiles/@item.Image" alt="Product-Image" width="50" /></td>
+					</tr>
+				}
+			</tbody>
+		</table>
+		<div class="checkout-summary">
+			<h3>Total Amount: @ViewBag.TotalAmount.ToString("C")</h3>
+		</div>
+		<div class="checkout-button">
+			<button onclick="alert('Proceeding to payment...')">Proceed to Payment</button>
+		</div>
+	}
+	else
+	{
+		<p>Your cart is empty.</p>
+	}
+</div>

@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body 
+        {
+            background: url('/images/home.png') no-repeat;
+            background-size: cover;
+            /* Removed semi-transparent background color */
+        }
+
+        .container {
+            width: 420px;
+            color: #ffff;
+            background: transparent;
+            border: 2px solid rgba(255,255,255,.2);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 5px rgba(0,0,0,.2);
+            border-radius: 10px;
+            padding: 30px 40px;
+            margin-top: 40px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Delete Product</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form method="post" action="/ServicesCategory/Delete1">
+                    <div class="form-group">
+                        <label for="productId">Enter course ID:</label>
+                        <input type="number" class="form-control" id="productId" name="id" placeholder="Course ID" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Delete Course</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

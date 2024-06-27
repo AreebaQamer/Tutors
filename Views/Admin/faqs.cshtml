@@ -1,0 +1,76 @@
+﻿
+@model List<FAQs>
+@{
+    Layout = "_Layout1";
+}
+<style>
+    body {
+        background-color: rosybrown;
+    }
+
+    .container-fluid {
+        padding: 20px; /* Padding around the container */
+    }
+
+    .faq-list {
+        margin-top: 20px; /* Top margin for the FAQ list */
+    }
+
+    .faq-item {
+        border: 1px solid #ccc; /* Border for each FAQ item */
+        padding: 10px; /* Padding within each FAQ item */
+        margin-bottom: 10px; /* Bottom margin for each FAQ item */
+        border-radius: 5px; /* Border radius for rounded corners */
+        background-color: #fff; /* Background color for each FAQ item */
+    }
+
+    h4 {
+        font-family: cursive; /* Font family for question titles */
+        color: #333; /* Color for question titles */
+    }
+
+    p {
+        font-family: cursive; /* Font family for answers */
+    }
+
+    button {
+        display: block; /* Display the button as a block element */
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: darkred;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+</style>
+<br />
+<br />
+<br />
+<div class="container-fluid">
+    <h2 class="text-center" style="font-family:cursive;color:darkred;font-weight:bolder">Frequently Asked Questions</h2>
+    <br />
+    <br />
+
+    <h4>If you want to ask a question click </h4>
+    <br />
+    <button style="margin-right:20px"><a href="/Feedback/FAQs" style="color:white">Ask your questions</a></button>
+    <div class="container">
+
+        <div class="faq-list mt-4">
+            <!-- Example FAQ item -->
+            @foreach (var p in Model)
+            {
+
+                <div class="faq-item mb-3">
+                    <h4 style="font-family:cursive"> Question  : @p.question @* What is your return policy? *@</h4>
+                    <p style="font-family:cursive">Answer : @p.answer @* Our return policy allows returns within 30 days of purchase. Items must be in original condition. *@</p>
+                </div>
+
+            }
+        </div>
+        <button type="submit" value="Submit">
+            <a href="/Feedback/FAQs" style=color:white>Back</a>
+        </button>
+
+        <!-- More FAQ items can be added here -->
+    </div>
+</div>
