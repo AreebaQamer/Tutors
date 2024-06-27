@@ -1,0 +1,145 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log in";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <style>
+        /* Add your custom styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .container {
+            background-image: url('/Images/home.png');
+            background-position: center bottom;
+            background-size: cover;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding-top: 20px;
+        }
+
+        form {
+            background-color: rgba(92, 90, 90, 0.6);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+            color: rgb(255, 60, 0)
+        }
+
+        label {
+            font-weight: bold;
+            color: white;
+        }
+
+        input[type="text"], input[type="email"],
+        input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-check-label {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form id="account" method="post">
+            <h2> Log in.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating form-group mb-3 ">
+                <label asp-for="Input.Email" class="form-label">Email</label>
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating form-group mb-3">
+                <label asp-for="Input.Password" class="form-label">Password</label>
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="checkbox form-group mb-3">
+                <label asp-for="Input.RememberMe" class="form-label">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                </label>
+            </div>
+            <div>
+                <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
+            </div>
+            <div>
+                <p>
+                    <a id="forgot-password" style="color:white"
+                       asp-page="./ForgotPassword">Forgot your password?</a>
+                </p>
+                <p>
+                    <a asp-page="./Register" style="color:white"
+                       asp-route-returnUrl="@Model.ReturnUrl">
+                        Register as a new user
+                    </a>
+                </p>
+                <p>
+                    <a style="color:white" id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+                </p>
+            </div>
+        </form>
+
+    </div>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>
