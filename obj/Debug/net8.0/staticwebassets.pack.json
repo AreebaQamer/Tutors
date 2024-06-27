@@ -1,0 +1,733 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E_Learning_Project_final.bundle.scp.css",
+      "PackagePath": "staticwebassets\\E_Learning_Project_final.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles2\\hc.ong.jpg",
+      "PackagePath": "staticwebassets\\UploadFiles2\\hc.ong.jpg"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\2.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\2.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\3.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\3.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\4.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\4.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\5.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\5.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\8.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\8.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\9.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\9.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\Chinese.mp4.mp4",
+      "PackagePath": "staticwebassets\\UploadFiles\\Chinese.mp4.mp4"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\English.mp4.mp4",
+      "PackagePath": "staticwebassets\\UploadFiles\\English.mp4.mp4"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\Hindi.mp4",
+      "PackagePath": "staticwebassets\\UploadFiles\\Hindi.mp4"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\Urdu.mp4",
+      "PackagePath": "staticwebassets\\UploadFiles\\Urdu.mp4"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\a4.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\a4.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\acount.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\acount.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\ad.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\ad.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\ai.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\ai.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\ang.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\ang.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\app.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\app.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\arabic.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\arabic.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\arabic2.mp4",
+      "PackagePath": "staticwebassets\\UploadFiles\\arabic2.mp4"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\bussiness.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\bussiness.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\c++.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\c++.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\c.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\c.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\c_net.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\c_net.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\canva.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\canva.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\chinese.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\chinese.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\digital.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\digital.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\en.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\en.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\eng.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\eng.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\english.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\english.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\finance.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\finance.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\fs.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\fs.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\gr.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\gr.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\graph.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\graph.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\hc.ong.jpg",
+      "PackagePath": "staticwebassets\\UploadFiles\\hc.ong.jpg"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\hindi.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\hindi.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\home.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\home.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\javascript.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\javascript.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\koja.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\koja.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\kot.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\kot.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\leader.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\leader.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\mern.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\mern.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\phasto.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\phasto.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\pro.jpg",
+      "PackagePath": "staticwebassets\\UploadFiles\\pro.jpg"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\ps.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\ps.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\punjabi.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\punjabi.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\py.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\py.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\react.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\react.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\sql.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\sql.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\teacher.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\teacher.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\urdu.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\urdu.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\virtual-class.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\virtual-class.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\web.mp4",
+      "PackagePath": "staticwebassets\\UploadFiles\\web.mp4"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\UploadFiles\\xd.png",
+      "PackagePath": "staticwebassets\\UploadFiles\\xd.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\Feedback.css",
+      "PackagePath": "staticwebassets\\css\\Feedback.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\SignIn.css",
+      "PackagePath": "staticwebassets\\css\\SignIn.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\User.css",
+      "PackagePath": "staticwebassets\\css\\User.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\bo.png",
+      "PackagePath": "staticwebassets\\css\\bo.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\hello.css",
+      "PackagePath": "staticwebassets\\css\\hello.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\noti.css",
+      "PackagePath": "staticwebassets\\css\\noti.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\services.css",
+      "PackagePath": "staticwebassets\\css\\services.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\css\\teachers.css",
+      "PackagePath": "staticwebassets\\css\\teachers.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\8.png",
+      "PackagePath": "staticwebassets\\images\\8.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\SEO.png",
+      "PackagePath": "staticwebassets\\images\\SEO.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\acount.png",
+      "PackagePath": "staticwebassets\\images\\acount.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ad.png",
+      "PackagePath": "staticwebassets\\images\\ad.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ai.png",
+      "PackagePath": "staticwebassets\\images\\ai.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ang.png",
+      "PackagePath": "staticwebassets\\images\\ang.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ap.png",
+      "PackagePath": "staticwebassets\\images\\ap.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\app.png",
+      "PackagePath": "staticwebassets\\images\\app.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\blur.png",
+      "PackagePath": "staticwebassets\\images\\blur.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\blur1.png",
+      "PackagePath": "staticwebassets\\images\\blur1.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\bo.png",
+      "PackagePath": "staticwebassets\\images\\bo.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\boo.png",
+      "PackagePath": "staticwebassets\\images\\boo.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\bussiness.png",
+      "PackagePath": "staticwebassets\\images\\bussiness.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\c.png",
+      "PackagePath": "staticwebassets\\images\\c.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\c_net.png",
+      "PackagePath": "staticwebassets\\images\\c_net.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\canva.png",
+      "PackagePath": "staticwebassets\\images\\canva.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\demo.png",
+      "PackagePath": "staticwebassets\\images\\demo.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\digital.png",
+      "PackagePath": "staticwebassets\\images\\digital.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\en.png",
+      "PackagePath": "staticwebassets\\images\\en.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\eng.png",
+      "PackagePath": "staticwebassets\\images\\eng.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\feed.png",
+      "PackagePath": "staticwebassets\\images\\feed.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\finance.png",
+      "PackagePath": "staticwebassets\\images\\finance.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\form.png",
+      "PackagePath": "staticwebassets\\images\\form.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\fs.png",
+      "PackagePath": "staticwebassets\\images\\fs.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\general.png",
+      "PackagePath": "staticwebassets\\images\\general.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\gr.png",
+      "PackagePath": "staticwebassets\\images\\gr.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\graph.png",
+      "PackagePath": "staticwebassets\\images\\graph.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\hc.ong.jpg",
+      "PackagePath": "staticwebassets\\images\\hc.ong.jpg"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ir.png",
+      "PackagePath": "staticwebassets\\images\\ir.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\javascript.png",
+      "PackagePath": "staticwebassets\\images\\javascript.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\koja.png",
+      "PackagePath": "staticwebassets\\images\\koja.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\kot.png",
+      "PackagePath": "staticwebassets\\images\\kot.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\leader.png",
+      "PackagePath": "staticwebassets\\images\\leader.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ma.png",
+      "PackagePath": "staticwebassets\\images\\ma.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\mobile.png",
+      "PackagePath": "staticwebassets\\images\\mobile.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ordr.png",
+      "PackagePath": "staticwebassets\\images\\ordr.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\poli.png",
+      "PackagePath": "staticwebassets\\images\\poli.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\poli2.png",
+      "PackagePath": "staticwebassets\\images\\poli2.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\poli2.pnh.webp",
+      "PackagePath": "staticwebassets\\images\\poli2.pnh.webp"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\pro.jpg",
+      "PackagePath": "staticwebassets\\images\\pro.jpg"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\ps.png",
+      "PackagePath": "staticwebassets\\images\\ps.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\py.png",
+      "PackagePath": "staticwebassets\\images\\py.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\qa.png",
+      "PackagePath": "staticwebassets\\images\\qa.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\react.png",
+      "PackagePath": "staticwebassets\\images\\react.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\socio.png",
+      "PackagePath": "staticwebassets\\images\\socio.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\sql.png",
+      "PackagePath": "staticwebassets\\images\\sql.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\sum.png",
+      "PackagePath": "staticwebassets\\images\\sum.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\teachers.css",
+      "PackagePath": "staticwebassets\\images\\teachers.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\images\\xd.png",
+      "PackagePath": "staticwebassets\\images\\xd.png"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\SEMESTER # 05\\Web Technology\\Project\\learning_hub\\E_Learning_Project_final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E_Learning_Project_final.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.E_Learning_Project_final.props",
+      "PackagePath": "build\\E_Learning_Project_final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.E_Learning_Project_final.props",
+      "PackagePath": "buildMultiTargeting\\E_Learning_Project_final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.E_Learning_Project_final.props",
+      "PackagePath": "buildTransitive\\E_Learning_Project_final.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

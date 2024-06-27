@@ -1,0 +1,379 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = E_Learning_Project_final
+build_property.RootNamespace = E_Learning_Project_final
+build_property.ProjectDir = D:\SEMESTER # 05\Web Technology\Project\learning_hub\E_Learning_Project_final\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SEMESTER # 05\Web Technology\Project\learning_hub\E_Learning_Project_final
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/AddToCart/AddToCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVG9DYXJ0XEFkZFRvQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/AddToCart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVG9DYXJ0XENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/AddToCart/ConfirmOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVG9DYXJ0XENvbmZpcm1PcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/AddToCart/DeleteCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVG9DYXJ0XERlbGV0ZUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/AddToCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVG9DYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/AddToCart/ViewCarts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVG9DYXJ0XFZpZXdDYXJ0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Course1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Course2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Course3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Course4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Course5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Course6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlNi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/CourseSub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlU3ViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/faqs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmFxcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Admin/Submit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VibWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Contact/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Contact/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Feedback/Addfeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcQWRkZmVlZGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Feedback/FAQs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcRkFRcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Feedback/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Feedback/Submit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcU3VibWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/Files.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/hello.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoZWxsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/AddCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxBZGRDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2UxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2UyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2UzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2U0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2U1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Course6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxDb3Vyc2U2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/Delete1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxEZWxldGUxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/DeleteStat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxEZWxldGVTdGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/ServicesCategory/UpdateCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNDYXRlZ29yeVxVcGRhdGVDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/AddSub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQWRkU3ViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/AppDevelopment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQXBwRGV2ZWxvcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/BussinessManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQnVzc2luZXNzTWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/Course2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQ291cnNlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/GeneralLanguages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcR2VuZXJhbExhbmd1YWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/GetCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcR2V0Q291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/GraphicDesigning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcR3JhcGhpY0Rlc2lnbmluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/Programming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcUHJvZ3JhbW1pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Services/Web.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcV2ViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/_Layout_new.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfbmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/_PartialHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/User/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Videos/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9zXGFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Videos/AddToCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9zXEFkZFRvQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Videos/LoadVideos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9zXExvYWRWaWRlb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Videos/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9zXFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/Videos/ViewVideo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9zXFZpZXdWaWRlby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SEMESTER \# 05/Web Technology/Project/learning_hub/E_Learning_Project_final/Views - Copy/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MgLSBDb3B5XFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-2c6yagbh87
